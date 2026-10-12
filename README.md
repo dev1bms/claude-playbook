@@ -69,6 +69,12 @@ claude plugin uninstall devbms-playbook@devbms && claude plugin marketplace remo
 يقرأ المرجع، يفحص المشروع، ويكتب `docs/PROJECT_CONTEXT.md` و`CLAUDE.md` من القوالب مع تسجيل
 إصدار الدليل المعتمد. رسالة البدء المقترحة في [WORKFLOW.md §7](WORKFLOW.md).
 
+## ملاحظتان بعد التثبيت
+
+- الإضافة المثبّتة في منتصف جلسة لا تظهر فيها؛ افتح جلسة جديدة لاستعمال `/devbms-playbook:*`.
+- `claude -p` من الطرفية داخل تطبيق Desktop غير مسجَّل الدخول (يحتاج `claude login` مستقلاً).
+- سجل التحقق: [docs/VERIFICATION-2026-10-12.md](docs/VERIFICATION-2026-10-12.md).
+
 ## الصيانة
 
 - التعديل على المرجع يمر بـcommit في هذا المستودع مع سطر في CHANGELOG؛ لا يُغيَّر سلوك كل
