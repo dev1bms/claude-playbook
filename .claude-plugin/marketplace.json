@@ -1,0 +1,17 @@
+{
+  "name": "devbms",
+  "description": "Belal (devbms) private marketplace: the devbms-playbook plugin (working-style reference, skills, global adapter).",
+  "owner": {
+    "name": "Belal Alswerki",
+    "url": "https://devbms.com"
+  },
+  "plugins": [
+    {
+      "name": "devbms-playbook",
+      "source": "./",
+      "description": "Belal's working-style playbook as skills: project start, phase delivery, UI review, release check, project close, devbms deploy, launch video.",
+      "category": "workflow",
+      "tags": ["playbook", "workflow", "arabic", "release", "ui-review"]
+    }
+  ]
+}

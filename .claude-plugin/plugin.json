@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "devbms-playbook",
+  "displayName": "devbms playbook",
+  "version": "1.0.0",
+  "description": "Belal (devbms) working-style playbook: project start, phase delivery, UI review, release check, project close, devbms server deploy and launch video skills, plus the global CLAUDE.md adapter and attribution-off installer.",
+  "author": {
+    "name": "Belal Alswerki",
+    "url": "https://devbms.com"
+  },
+  "homepage": "https://github.com/dev1bms/claude-playbook",
+  "repository": "https://github.com/dev1bms/claude-playbook",
+  "license": "UNLICENSED",
+  "keywords": ["playbook", "workflow", "devbms", "arabic", "release", "ui-review"]
+}
